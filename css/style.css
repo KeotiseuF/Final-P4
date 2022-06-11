@@ -268,10 +268,6 @@ a:hover {
     margin-top: 30px;
 }
 
-.voffset-lg {
-    margin-top: 80px;
-}
-
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -677,8 +673,8 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
+p, q {
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -701,7 +697,7 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 700px;
     margin: auto auto auto auto;
 }
 
@@ -1043,7 +1039,56 @@ h4 {
     }
 }
 
+/*Optimisation*/
+
 .bloc-form
 {
     width: 100%! important;
+}
+
+.h2-flex
+{ 
+    display: flex;
+    justify-content: center;
+}
+
+.h2-width
+{
+    width: 605px;
+}
+
+q + p
+{
+    margin-top: 12px;
+    padding: 0px 35px;
+}
+
+.h2-margin 
+{
+    margin-top: 50px;
+}
+
+.p-footer
+{
+    margin: 10px 0px 25px;
+    color: #4B4444! important;
+}
+
+section#bloc-5-cta 
+{
+    padding: 80px;
+}
+
+.pad-notation
+{
+    padding: 0px 47px;
+}
+
+@media (max-width: 767px) 
+{
+    .portofio-top
+    {
+        margin-top: 50px;
+
+    }
 }
