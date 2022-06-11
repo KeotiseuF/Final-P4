@@ -5197,9 +5197,10 @@ textarea.input-group-sm>.input-group-btn>.btn {
     line-height: 20px
 }
 
-.navbar-brand:focus,
-.navbar-brand:hover {
-    text-decoration: none
+.navbar-brand:focus {
+    text-decoration: none;  
+    border: solid;
+    transition: lineaire 1ms 0s;
 }
 
 .navbar-brand>img {
