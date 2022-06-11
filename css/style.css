@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: #4B4444;
+    color: #473C3C;
 }
 
 .d-bloc .a-btn:hover,
@@ -675,6 +675,7 @@ a {
 
 p, q {
     font-size: 16px;
+    color: #473C3C;
 }
 
 .tight-width-whitespace {
@@ -778,7 +779,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #4B4444!important;
+    color: #473c3c!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1071,7 +1072,7 @@ q + p
 .p-footer
 {
     margin: 10px 0px 25px;
-    color: #4B4444! important;
+    color: #473c3c! important;
 }
 
 section#bloc-5-cta 
