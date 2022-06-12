@@ -1007,7 +1007,7 @@ h4 {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        padding: 5px 22px;
     }
     .close-lightbox {
         display: inline-block;
@@ -1031,7 +1031,9 @@ h4 {
     }
 }
 
-/*Optimisation*/
+
+
+/*Optimisation Page1*/
 
 .bloc-form
 {
@@ -1083,9 +1085,19 @@ section#bloc-5-cta
     transition: lineaire 1ms 0s;
 } 
 
+.size-titre
+{
+    font-size: 14px;
+}
+
 .social:focus > .icon-md 
 {
     color: #FFFFFF;
+}
+
+.scrollToTop:focus
+{
+    background: #FFF;
 }
 
 @media (max-width: 767px) 
@@ -1104,3 +1116,16 @@ section#bloc-5-cta
     }
 }
 
+
+
+/*Optimisation Page2*/
+
+.margin-contact
+{
+    margin-top: 25px;
+}
+
+.little-margin
+{
+    margin-bottom: 50px;
+}
